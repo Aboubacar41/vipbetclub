@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr" itemscope itemtype="https://schema.org/ProfessionalService">
+<head>
+    <!-- 🌐 Optimisation SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Haute Connaissance Spirituelle : Éveillez votre âme avec Goame-Bila, féticheur traditionnel. Consultations géomantiques, talismans sacrés, méditations puissantes, et solutions spirituelles pour tous vos problèmes.">
+    <meta name="keywords" content="spiritualité africaine, géomancie, méditation guidée, protection spirituelle, rituels sacrés, prospérité spirituelle, talismans, fétiches, éveil spirituel">
+    <meta name="author" content="Goame-Bila">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    
+    <!-- 🎨 Design -->
+    <title>Haute Connaissance Spirituelle : Éveillez votre potentiel divin avec Goame-Bila</title>
+    <meta name="theme-color" content="#2a1b3d">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#2a1b3d">
+    
+    <!-- 🌐 SEO Social & Structured Data -->
+    <meta property="og:title" content="Haute Connaissance Spirituelle - Consultations & Boutique">
+    <meta property="og:description" content="Consultations spirituelles personnalisées avec Goame-Bila. Protection énergétique, rituels sacrés et boutique exclusive.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&w=1200&q=80">
+    <meta property="og:url" content="https://super-fengisu-e2ba5c.netlify.app">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_FR">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Haute Connaissance Spirituelle">
+    <meta name="twitter:description" content="Consultations spirituelles personnalisées avec Goame-Bila. Boutique exclusive de talismans et fétiches.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&w=1200&q=80">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Haute Connaissance Spirituelle",
+        "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&w=1200&q=80",
+        "description": "Consultations spirituelles personnalisées avec Goame-Bila. Boutique exclusive de talismans et fétiches.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "Burkina Faso"
+        },
+        "priceRange": "5000-50000 XOF",
+        "telephone": "+22664730535",
+        "sameAs": [
+            "https://wa.me/+22664730535",
+            "https://t.me/goamebila",
+            "mailto:hcspirituelle226@gmail.com"
+        ]
+    }
+    </script>
+    
+    <!-- 🔒 Sécurité renforcée -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://*.tawk.to https://assets.mixkit.co https://www.youtube.com https://www.paypal.com https://wave.ng https://www.orange-money.com; script-src 'self' https://*.tawk.to https://www.googletagmanager.com https://unpkg.com 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; img-src 'self' data: https://*.tawk.to https://images.unsplash.com https://logos-world.net https://www.wave.ng https://www.orange-money.com https://telegram.org https://img.icons8.com; media-src 'self' https://assets.mixkit.co https://www.soundhelix.com https://www.youtube.com; font-src 'self' https://fonts.gstatic.com;">
+    
+    <!-- 🎨 Styles -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@300;400&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@300;400&display=swap">
+    <!-- Swiper CSS pour le carrousel -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <style>
+        :root {
+            --primary: #2a1b3d;
+            --accent: #d4af37;
+            --text: #e6d5b8;
+            --transition: 0.3s ease;
+            --glow: 0 0 10px rgba(212, 175, 55, 0.7);
+            --secondary-bg: #1e1433; /* Couleur apaisante pour certains éléments */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #0f0a1a;
+            color: var(--text);
+            font-size: 16px;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        header {
+            position: relative;
+            height: 100vh;
+            background: #0f0a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            overflow: hidden;
+            background-attachment: fixed; /* Effet Parallax */
+        }
+
+        header video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.8;
+            z-index: -1;
+        }
+
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(42, 27, 61, 0.7) 0%, rgba(212, 175, 55, 0.5) 100%);
+            z-index: -1;
+        }
+
+        .hero-content {
+            z-index: 1;
+            text-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            font-family: 'Lora', serif;
+            font-size: 4em;
+            color: var(--accent);
+            margin-bottom: 20px;
+            text-shadow: var(--glow);
+            animation: glowPulse 2s infinite ease-in-out;
+        }
+
+        header h2 {
+            font-family: 'Lora', serif;
+            font-size: 2em;
+            color: var(--text);
+            margin-bottom: 30px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: var(--accent);
+            color: #0f0a1a;
+            text-decoration: none;
+            font-family: 'Lora', serif;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color var(--transition), transform var(--transition), box-shadow var(--transition);
+        }
+
+        .cta-button:hover {
+            background-color: var(--text);
+            transform: scale(1.05);
+            box-shadow: var(--glow);
+        }
+
+        .cta-button:focus {
+            outline: 2px solid var(--text);
+            outline-offset: 2px;
+        }
+
+        .paypal-button {
+            background-color: #0070ba;
+            color: #ffffff;
+            border: 2px solid var(--accent);
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color var(--transition), transform var(--transition);
+        }
+
+        .paypal-button:hover {
+            background-color: #005ea6;
+            transform: scale(1.05);
+        }
+
+        .paypal-button:focus {
+            outline: 2px solid var(--text);
+            outline-offset: 2px;
+        }
+
+        nav {
+            background-color: var(--primary);
+            padding: 15px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 2px solid var(--accent);
+        }
+
+        nav a {
+            color: var(--accent);
+            margin: 0 20px;
+            text-decoration: none;
+            font-family: 'Lora', serif;
+            font-size: 1.2em;
+            transition: color var(--transition);
+        }
+
+        nav a:hover {
+            color: var(--text);
+            text-shadow: var(--glow);
+        }
+
+        nav a:focus {
+            outline: 2px solid var(--text);
+            outline-offset: 2px;
+        }
+
+        .section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            border-left: 1px solid var(--accent);
+            border-right: 1px solid var(--accent);
+        }
+
+        .section::before, .section::after {
+            content: '✨';
+            position: absolute;
+            color: var(--accent);
+            font-size: 2em;
+            animation: sparkle 3s infinite;
+        }
+
+        .section::before {
+            top: 20px;
+            left: -10px;
+        }
+
+        .section::after {
+            bottom: 20px;
+            right: -10px;
+        }
+
+        .section h2 {
+            font-family: 'Lora', serif;
+            color: var(--accent);
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: var(--glow);
+        }
+
+        .section h3 {
+            font-family: 'Lora', serif;
+            color: var(--text);
+            font-size: 1.8em;
+            margin: 30px 0 15px;
+        }
+
+        .section p, .section ul {
+            font-size: 1.1em;
+            color: var(--text);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 15px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        ul li::before {
+            content: '🌟';
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .product-card {
+            background: var(--primary);
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            transition: transform var(--transition), box-shadow var(--transition);
+            box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--glow);
+        }
+
+        .product-card img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            transition: transform var(--transition);
+        }
+
+        .product-card img:hover {
+            transform: scale(1.1);
+        }
+
+        .media-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .media-gallery img, .media-gallery video {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: var(--glow);
+        }
+
+        .audio-player, .quote-widget, .consultation {
+            text-align: center;
+            margin: 20px 0;
+            background-color: var(--primary);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: var(--glow);
+        }
+
+        .quote-widget p {
+            font-style: italic;
+            color: var(--accent);
+        }
+
+        .event-calendar, .zone-membre, .community {
+            background-color: var(--primary);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            box-shadow: var(--glow);
+        }
+
+        .contact-form, .newsletter-form, .promo-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .contact-form input, .contact-form textarea, .newsletter-form input, .promo-form input {
+            padding: 10px;
+            background-color: var(--primary);
+            border: 1px solid var(--accent);
+            color: var(--text);
+            border-radius: 5px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .contact-form button, .newsletter-form button, .promo-form button {
+            padding: 10px;
+            background-color: var(--accent);
+            color: #0f0a1a;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Lora', serif;
+            transition: background-color var(--transition);
+        }
+
+        .contact-form button:hover, .newsletter-form button:hover, .promo-form button:hover {
+            background-color: var(--text);
+        }
+
+        .contact-form button:focus, .newsletter-form button:focus, .promo-form button:focus {
+            outline: 2px solid var(--text);
+            outline-offset: 2px;
+        }
+
+        footer {
+            background-color: var(--primary);
+            padding: 20px;
+            text-align: center;
+            color: var(--accent);
+            font-size: 0.9em;
+            margin-top: 50px;
+            border-top: 2px solid var(--accent);
+        }
+
+        footer a {
+            color: var(--accent);
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color var(--transition);
+        }
+
+        footer a:hover {
+            color: var(--text);
+            text-shadow: var(--glow);
+        }
+
+        footer a:focus {
+            outline: 2px solid var(--text);
+            outline-offset: 2px;
+        }
+
+        .cookie-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: var(--primary);
+            color: var(--text);
+            padding: 15px;
+            text-align: center;
+            z-index: 1000;
+            display: none;
+        }
+
+        .cookie-banner button {
+            padding: 5px 10px;
+            background: var(--accent);
+            color: #0f0a1a;
+            border: none;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+
+        .cookie-banner button:focus {
+            outline: 2px solid var(--text);
+            outline-offset: 2px;
+        }
+
+        /* Bouton WhatsApp flottant */
+        .floating-whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            padding: 15px;
+            border-radius: 50%;
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+
+        .floating-whatsapp img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .floating-whatsapp:focus {
+            outline: 2px solid #fff;
+            outline-offset: 2px;
+        }
+
+        /* Style des méthodes de paiement */
+        .payment-method {
+            background: var(--secondary-bg);
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .payment-method img {
+            width: 100px;
+            height: auto;
+            margin: 10px 0;
+        }
+
+        .payment-method a, .payment-method button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: var(--accent);
+            color: #0f0a1a;
+            text-decoration: none;
+            border-radius: 5px;
+            font-family: 'Lora', serif;
+            transition: background-color var(--transition);
+        }
+
+        .payment-method button {
+            border: none;
+            cursor: pointer;
+        }
+
+        .payment-method a:hover, .payment-method button:hover {
+            background-color: var(--text);
+        }
+
+        /* Carrousel Swiper */
+        .swiper-container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .swiper-slide {
+            background: var(--primary);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* FAQ */
+        details {
+            margin: 10px 0;
+            padding: 10px;
+            background: var(--secondary-bg);
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        summary {
+            cursor: pointer;
+            font-family: 'Lora', serif;
+            color: var(--accent);
+            font-size: 1.2em;
+        }
+
+        summary:focus {
+            outline: 2px solid var(--text);
+            outline-offset: 2px;
+        }
+
+        @keyframes glowPulse {
+            0% { text-shadow: 0 0 5px rgba(212, 175, 55, 0.5); }
+            50% { text-shadow: 0 0 15px rgba(212, 175, 55, 0.9); }
+            100% { text-shadow: 0 0 5px rgba(212, 175, 55, 0.5); }
+        }
+
+        @keyframes sparkle {
+            0% { opacity: 0.5; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.2); }
+            100% { opacity: 0.5; transform: scale(1); }
+        }
+
+        @media (max-width: 768px) {
+            header h1 { font-size: 2.5em; }
+            header h2 { font-size: 1.5em; }
+            .section h2 { font-size: 2em; }
+            .section h3 { font-size: 1.5em; }
+            .cta-button, .paypal-button { padding: 10px 20px; font-size: 1em; }
+            nav a { margin: 0 10px; font-size: 1em; }
+            .floating-whatsapp { padding: 10px; }
+            .floating-whatsapp img { width: 25px; height: 25px; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Cookie Banner -->
+    <div class="cookie-banner" id="cookieBanner">
+        <p>Nous utilisons des cookies pour améliorer votre expérience. En continuant, vous acceptez notre <a href="#privacy" style="color: var(--accent);">politique de confidentialité</a>.</p>
+        <button onclick="acceptCookies()">Accepter</button>
+    </div>
+
+    <!-- 🌆 Header avec vidéo -->
+    <header>
+        <video autoplay muted loop>
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-starry-sky-in-the-mountains-160-large.mp4" type="video/mp4">
+            <track src="subtitles.vtt" kind="subtitles" srclang="fr" label="Français" default>
+            Votre navigateur ne prend pas en charge la vidéo.
+        </video>
+        <div class="hero-content">
+            <h1>Bienvenue dans l'Éveil de la Conscience Divine</h1>
+            <h2>Explorez la haute connaissance spirituelle avec Goame-Bila, féticheur traditionnel.</h2>
+            <div class="cta-buttons">
+                <a href="#consultations" class="cta-button">Commencez votre voyage spirituel</a>
+                <a href="#ressources" class="cta-button">Accédez à des méditations exclusives</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#a-propos">À propos</a>
+        <a href="#ressources">Ressources</a>
+        <a href="#rituels">Rituels</a>
+        <a href="#blog">Blog</a>
+        <a href="#temoignages">Témoignages</a>
+        <a href="#consultations">Consultations</a>
+        <a href="#boutique">Boutique</a>
+        <a href="#contact">Contact</a>
+        <a href="#communaute">Communauté</a>
+        <a href="#membres">Espace Membres</a>
+    </nav>
+
+    <!-- Audio Player -->
+    <div class="audio-player">
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+            Votre navigateur ne prend pas en charge l’élément audio.
+        </audio>
+        <p>Activez la fréquence 1111 Hz pour élever votre vibration et vous connecter à la Source divine.</p>
+    </div>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="section">
+        <h2>Un Sanctuaire pour Votre Âme</h2>
+        <p>Bienvenue, cher chercheur de lumière, dans cet espace sacré où votre âme peut s’épanouir. Ici, je vous guide avec cœur et bienveillance vers l’éveil de votre conscience divine. À travers des rituels anciens, des méditations profondes et des enseignements mystiques, découvrez la haute connaissance spirituelle qui vous mènera à la transcendance. Que votre cœur s’illumine de la lumière éternelle de l’univers.</p>
+    </section>
+
+    <!-- Quote Widget -->
+    <div class="quote-widget">
+        <p>"Que chaque pas que vous faites soit un pas vers la lumière divine qui réside en vous."</p>
+    </div>
+
+    <!-- Section À Propos -->
+    <section id="a-propos" class="section">
+        <h2>Mon Chemin Spirituel</h2>
+        <p>Je suis Sawadogo Bilal, connu sous le nom de Goame-Bila, féticheur traditionnel et praticien des sciences spirituelles africaines profondes. Initié dans les forêts sacrées et les temples invisibles, j’ai passé 5 années à apprendre auprès d’un maître spirituel, développant des dons puissants comme un magnétisme s’étendant à 10 mètres et une clairvoyance qui m’a permis d’avoir des visions éveillées. Ces visions, qui se sont intensifiées depuis avril 2025, m’ont révélé des vérités profondes sur l’univers et ma mission. Actuellement, je travaille à maîtriser la télékinésie pour faire bouger mon talisman, un objectif que je compte atteindre d’ici la fin de ce mois d’avril 2025. Ce cheminement, soutenu par mon guide spirituel, m’a permis de transcender les illusions de ce monde et de me connecter à l’énergie divine qui réside en chacun de nous.</p>
+        <p>Ma mission est de vous accompagner avec amour et puissance sur ce chemin sacré. À travers la géomancie ancestrale, des fétiches, des talismans, des méditations et des rituels empreints de cœur, je vous aide à éveiller la conscience collective et à résoudre vos problèmes les plus profonds. Que votre âme s’illumine de lumière divine, et que ce voyage spirituel vous apporte paix et élévation.</p>
+        <video controls loading="lazy" style="display: block; margin: 20px auto; max-width: 100%;">
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-candle-on-a-spa-table-2292-large.mp4" type="video/mp4">
+            <track src="subtitles.vtt" kind="subtitles" srclang="fr" label="Français" default>
+            Votre navigateur ne prend pas en charge la vidéo.
+        </video>
+    </section>
+
+    <!-- Section Ressources Spirituelles -->
+    <section id="ressources" class="section">
+        <h2>Ressources Spirituelles</h2>
+        <p>Explorez des outils sacrés pour approfondir votre pratique spirituelle :</p>
+        <ul>
+            <li><strong>Méditations guidées :</strong> Des audio et vidéos pour activer vos chakras, purifier votre énergie et vous connecter à la Source divine.</li>
+            <li><strong>Rituels et pratiques spirituelles :</strong> Instructions détaillées pour des rituels comme la purification énergétique et l’éveil de vos dons intuitifs.</li>
+            <li><strong>Mantras et zikr sacrés :</strong> Une liste de chants puissants pour élever votre vibration et ouvrir des portes spirituelles.</li>
+            <li><strong>E-books et guides :</strong> Téléchargez des manuels sur l’éveil de la conscience et l’activation de votre puissance intérieure.</li>
+        </ul>
+        <div class="media-gallery">
+            <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&w=400&q=80" alt="Méditation sous un ciel étoilé par Goame-Bila" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?ixlib=rb-4.0.3&w=400&q=80" alt="Mandalas spirituels pour l'éveil" loading="lazy">
+            <video controls loading="lazy">
+                <source src="https://assets
+
+.mixkit.co/videos/preview/mixkit-candle-on-a-spa-table-2292-large.mp4" type="video/mp4">
+                <track src="subtitles.vtt" kind="subtitles" srclang="fr" label="Français" default>
+                Votre navigateur ne prend pas en charge la vidéo.
+            </video>
+        </div>
+    </section>
+
+    <!-- Section Rituels -->
+    <section id="rituels" class="section">
+        <h2>Rituels et Pratiques</h2>
+        <p>Plongez dans des pratiques spirituelles puissantes pour transformer votre être :</p>
+        <ul>
+            <li><strong>Activation des Chakras :</strong> Un rituel pour équilibrer vos centres énergétiques et libérer votre potentiel spirituel.</li>
+            <li><strong>Protection Spirituelle :</strong> Des pratiques pour ériger des boucliers énergétiques contre les influences négatives.</li>
+            <li><strong>Connexion aux Ancêtres :</strong> Apprenez à dialoguer avec vos guides spirituels pour recevoir leur sagesse.</li>
+            <li><strong>Ouverture du Troisième Œil :</strong> Une méditation guidée pour éveiller votre intuition et percevoir les vérités cachées.</li>
+        </ul>
+    </section>
+
+    <!-- Section Blog -->
+    <section id="blog" class="section">
+        <h2>Blog Spirituel</h2>
+        <p>Découvrez des articles inspirants pour approfondir votre cheminement spirituel :</p>
+        <ul>
+            <li><strong>Le Pouvoir des Talismans Africains :</strong> Comment ces objets sacrés peuvent transformer votre vie.</li>
+            <li><strong>La Géomancie Révélée :</strong> Les secrets de la lecture des signes divins.</li>
+            <li><strong>5 Rituels pour Attirer l’Abondance :</strong> Des pratiques simples pour inviter la prospérité.</li>
+            <li><strong>Méditation et Kundalini :</strong> Éveillez votre énergie vitale pour une transformation profonde.</li>
+        </ul>
+    </section>
+
+    <!-- Section Témoignages -->
+    <section id="temoignages" class="section">
+        <h2>Témoignages</h2>
+        <p>Écoutez les histoires de ceux qui ont trouvé la lumière grâce à mes services :</p>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <p><strong>Aminata, Ouagadougou :</strong> "Les méditations guidées de Goame-Bila m’ont permis de ressentir une paix profonde et de me reconnecter à mon essence."</p>
+                </div>
+                <div class="swiper-slide">
+                    <p><strong>Moussa, Bobo-Dioulasso :</strong> "Grâce à un rituel de prospérité, ma vie financière s’est transformée de manière incroyable."</p>
+                </div>
+                <div class="swiper-slide">
+                    <p><strong>Fatima, Bamako :</strong> "Les talismans m’ont apporté une protection puissante contre les énergies négatives."</p>
+                </div>
+                <div class="swiper-slide">
+                    <p><strong>Kofi, Abidjan :</strong> "Goame-Bila m’a aidé à retrouver une connexion profonde avec mes ancêtres, et je me sens enfin en paix."</p>
+                </div>
+                <div class="swiper-slide">
+                    <p><strong>Sophia, Niamey :</strong> "La géomancie de Goame-Bila a révélé des vérités sur ma destinée, me donnant la clarté pour avancer."</p>
+                </div>
+                <div class="swiper-slide">
+                    <p><strong>Adama, Dakar :</strong> "Les rituels de protection de Goame-Bila m’ont libéré des énergies sombres qui pesaient sur moi, je me sens enfin libre."</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- Schema Markup pour les Témoignages -->
+    <script type="application/ld+json">
+    [
+        {
+            "@context": "https://schema.org",
+            "@type": "Review",
+            "author": {"@type": "Person", "name": "Aminata"},
+            "reviewBody": "Les méditations guidées de Goame-Bila m’ont permis de ressentir une paix profonde et de me reconnecter à mon essence.",
+            "reviewRating": {"@type": "Rating", "ratingValue": "5"}
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "Review",
+            "author": {"@type": "Person", "name": "Moussa"},
+            "reviewBody": "Grâce à un rituel de prospérité, ma vie financière s’est transformée de manière incroyable.",
+            "reviewRating": {"@type": "Rating", "ratingValue": "5"}
+        }
+    ]
+    </script>
+
+    <!-- Section Consultations -->
+    <section id="consultations" class="section">
+        <h2>Consultations Spirituelles</h2>
+        <p>Offrez-vous une guidance personnalisée pour éclairer votre chemin :</p>
+        <div class="consultation">
+            <h3>Consultation en Géomancie</h3>
+            <p>Une lecture profonde pour décrypter les messages des ancêtres et comprendre votre destinée. Durée : 1h à 1h30 | Tarif : 5 000 XOF.</p>
+            <a href="#contact" class="cta-button">Réserver une Consultation</a>
+        </div>
+        <div class="consultation">
+            <h3>Protection Énergétique</h3>
+            <p>Un rituel personnalisé pour vous protéger des énergies négatives et renforcer votre aura. Durée : 45 min | Tarif : 3 000 XOF.</p>
+            <a href="#contact" class="cta-button">Demander une Protection</a>
+        </div>
+        <p style="text-align: center; margin-top: 20px;">Rejoignez les 500+ âmes éclairées ayant transformé leur vie avec nos consultations !</p>
+    </section>
+
+    <!-- Section Boutique -->
+    <section id="boutique" class="section">
+        <h2>Boutique Spirituelle</h2>
+        <p>Découvrez des trésors sacrés pour accompagner votre éveil :</p>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1557805114-8a3ab7a62742?ixlib=rb-4.0.3&w=400&q=80" alt="Talisman de protection chargé d’énergies ancestrales" loading="lazy">
+                <h3>Talisman de Protection</h3>
+                <p>Un objet chargé d’énergies ancestrales pour vous protéger des forces négatives.</p>
+                <a href="#paiements" class="cta-button">Acheter</a>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1600585154347-8c98e635c01f?ixlib=rb-4.0.3&w=400&q=80" alt="Pierre de guérison pour équilibrer les chakras" loading="lazy">
+                <h3>Pierre de Guérison</h3>
+                <p>Une pierre sacrée pour équilibrer vos chakras et favoriser la guérison intérieure.</p>
+                <a href="#paiements" class="cta-button">Acheter</a>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1519183074208-910a3f568c23?ixlib=rb-4.0.3&w=400&q=80" alt="Encens sacré pour purification" loading="lazy">
+                <h3>Encens de Purification</h3>
+                <p>Fumées sacrées pour purifier votre espace et attirer des énergies positives.</p>
+                <a href="#paiements" class="cta-button">Acheter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Paiements -->
+    <section id="paiements" class="section">
+        <h2>Paiements Sécurisés</h2>
+        <p>Choisissez votre méthode de paiement préférée pour un échange en toute confiance :</p>
+        <div class="payment-method">
+            <h3>PayPal</h3>
+            <button onclick="confirmPayment('PayPal')">Payer avec PayPal</button>
+        </div>
+        <div class="payment-method">
+            <h3>Wave</h3>
+            <a href="https://wave.ng"><img src="https://logos-world.net/wp-content/uploads/2023/07/Wave-Logo-500x281.png" alt="Wave Logo" loading="lazy"></a>
+            <p>Contactez-moi au +226 64 73 05 35 pour confirmer votre paiement via Wave.</p>
+        </div>
+        <div class="payment-method">
+            <h3>Orange Money</h3>
+            <a href="https://www.orange-money.com"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Orange_Money_Logo.svg/500px-Orange_Money_Logo.svg.png" alt="Orange Money Logo" loading="lazy"></a>
+            <p>Contactez-moi au +226 64 73 05 35 pour confirmer votre paiement via Orange Money.</p>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section">
+        <h2>Contactez-moi</h2>
+        <p>Je suis ici pour vous guider avec cœur et lumière. Contactez-moi pour toute question ou pour réserver une consultation.</p>
+        <p><strong>Téléphone :</strong> +226 64 73 05 35 (Appel, WhatsApp, Telegram)</p>
+        <p><strong>Email :</strong> hcspirituelle226@gmail.com</p>
+        <div class="media-gallery">
+            <a href="https://wa.me/+22664730535"><img src="https://img.icons8.com/color/48/whatsapp.png" alt="Contact WhatsApp" loading="lazy"></a>
+            <a href="https://t.me/goamebila"><img src="https://telegram.org/img/t_logo.png" alt="Contact Telegram" style="width: 48px;" loading="lazy"></a>
+        </div>
+        <div class="contact-form">
+            <input type="text" placeholder="Votre Nom" required aria-label="Votre Nom">
+            <input type="email" placeholder="Votre Email" required aria-label="Votre Email">
+            <textarea placeholder="Votre Message" rows="5" required aria-label="Votre Message"></textarea>
+            <button type="submit">Envoyer</button>
+        </div>
+    </section>
+
+    <!-- Section FAQ -->
+    <section id="faq" class="section">
+        <h2>Questions Fréquentes</h2>
+        <details>
+            <summary>Comment réserver une consultation ?</summary>
+            <p>Utilisez le formulaire de contact ci-dessus ou contactez-moi directement via WhatsApp ou Telegram.</p>
+        </details>
+        <details>
+            <summary>Quels sont les délais pour recevoir un talisman ?</summary>
+            <p>Les talismans sont préparés et expédiés sous 5 à 7 jours après confirmation du paiement.</p>
+        </details>
+        <details>
+            <summary>Les paiements sont-ils sécurisés ?</summary>
+            <p>Oui, toutes les méthodes de paiement sont sécurisées. Vous recevrez une confirmation après chaque paiement.</p>
+        </details>
+    </section>
+
+    <!-- Section Communauté -->
+    <section id="communaute" class="section">
+        <h2>Rejoignez Notre Communauté</h2>
+        <p>Faites partie d’un cercle sacré de chercheurs de lumière :</p>
+        <div class="community">
+            <p>Inscrivez-vous à notre newsletter pour recevoir des méditations exclusives, des rituels et des conseils spirituels.</p>
+            <div class="newsletter-form">
+                <input type="email" placeholder="Votre Email" required aria-label="Votre Email">
+                <button type="submit">S’inscrire</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Espace Membres -->
+    <section id="membres" class="section">
+        <h2>Espace Membres</h2>
+        <p>Accédez à des ressources exclusives réservées aux membres de notre communauté spirituelle.</p>
+        <div class="zone-membre">
+            <p><a href="#" class="cta-button">Connexion (bientôt disponible)</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Haute Connaissance Spirituelle. Que la lumière divine vous guide.</p>
+        <div>
+            <a href="#privacy">Politique de Confidentialité</a>
+            <a href="#terms">Conditions d’Utilisation</a>
+            <a href="#contact">Nous Contacter</a>
+        </div>
+    </footer>
+
+    <!-- Bouton WhatsApp Flottant -->
+    <a href="https://wa.me/+22664730535" class="floating-whatsapp" aria-label="Contactez-nous sur WhatsApp">
+        <img src="https://img.icons8.com/color/48/whatsapp.png" alt="WhatsApp">
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        // Gestion des cookies
+        function acceptCookies() {
+            document.getElementById('cookieBanner').style.display = 'none';
+            localStorage.setItem('cookiesAccepted', 'true');
+        }
+
+        window.onload = function() {
+            if (!localStorage.getItem('cookiesAccepted')) {
+                document.getElementById('cookieBanner').style.display = 'block';
+            }
+        };
+
+        // Confirmation de paiement
+        function confirmPayment(method) {
+            alert(`Paiement effectué via ${method} ! Merci de vérifier votre confirmation.`);
+        }
+
+        // Initialisation du carrousel Swiper
+        const swiper = new Swiper('.swiper-container', {
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+        // Validation du formulaire de contact
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = this.querySelector('input[type="text"]').value;
+            const email = this.querySelector('input[type="email"]').value;
+            const message = this.querySelector('textarea').value;
+
+            if (name && email && message) {
+                if (/^\S+@\S+\.\S+$/.test(email)) {
+                    alert('Message envoyé avec succès ! Je vous répondrai bientôt.');
+                    this.reset();
+                } else {
+                    alert('Veuillez entrer un email valide.');
+                }
+            } else {
+                alert('Veuillez remplir tous les champs.');
+            }
+        });
+
+        // Balises méta dynamiques
+        document.title = "Haute Connaissance Spirituelle : Éveillez votre potentiel divin avec Goame-Bila";
+        document.querySelector('meta[name="description"]').setAttribute("content", "Haute Connaissance Spirituelle : Éveillez votre âme avec Goame-Bila, féticheur traditionnel. Consultations géomantiques, talismans sacrés, méditations puissantes, et solutions spirituelles pour tous vos problèmes.");
+    </script>
+
+    <!-- Chatbot Tawk.to -->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/YOUR_TAWK_ID/default';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+</body>
+</html>
